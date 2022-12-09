@@ -1,0 +1,12 @@
+.nav-wrapper {
+    background-color: rgb(8, 151, 151) !important;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#nav-mobile li{
+   
+    padding-left: 50px;
+    padding-right: 50px;
+}

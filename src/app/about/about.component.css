@@ -1,0 +1,22 @@
+.container-fluid{
+    margin-top: 20px;
+}
+
+.card{
+
+  margin-top: 0%;  
+ color: black;
+
+}
+#card{
+   background-color:  rgb(26, 126, 126);
+}
+
+div{
+    background-color: rgb(246, 232, 215);
+    
+}
+.card-action{
+    background-color: rgb(73, 223, 223) lighten-2;
+    
+}

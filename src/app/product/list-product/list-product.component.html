@@ -1,0 +1,38 @@
+<h2>Products</h2>
+<input #input (input)="selectProduct(input.value)" type="string" />
+
+<p *ngIf="searchProducts.length==0">
+  <i class="small material-icons">child_friendly</i>
+  Sorry this medcine not manifacture by XYZPharma.
+</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div *ngFor="let product of searchProducts" class="col m4 s3">
+
+
+      <div class="card small teal lighten-2">
+        <div class="card-image">
+          <img [src]="product.picture" style="margin: 15px;" alt="">
+
+        </div>
+
+        <div class="card-content teal lighten-2">
+          <h5>{{ product.name }}</h5>
+
+          <p>
+            <strong>
+              Use:</strong> {{product.use }}
+          </p>
+          <button (click)="goToProduct(product)">See Details
+
+          </button>
+          <br>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+  <br>
+</div>

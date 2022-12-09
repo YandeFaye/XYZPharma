@@ -1,0 +1,12 @@
+#space{
+    margin:20px;
+}
+.card-image{
+    height: 220px;
+    overflow: hidden;
+    width: 315px;
+}
+.card-content teal lighten-2{
+    
+    height: 123px;
+}
